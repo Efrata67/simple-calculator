@@ -33,3 +33,6 @@ cout << "Invalid operation!" << endl;
 
     return 0; 
 } 
+int multiply(int a, int b) {
+    return a * b;
+}
