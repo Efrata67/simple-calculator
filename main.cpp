@@ -35,4 +35,14 @@ cout << "Invalid operation!" << endl;
 } 
 int multiply(int a, int b) {
     return a * b;
+
 }
+
+// done by biniam repositery
+int divide(int a, int b) { 
+    if (b == 0) { 
+        cout << "Error: Division by zero!" << endl; 
+        return 0; 
+    } 
+    return a / b; 
+} 
